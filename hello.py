@@ -4,7 +4,8 @@ print(a+b)
 my_str='abcdefghijklmn'
 print(my_str)
 
-# Following are example of slicing
+print('Following are example of slicing\n\n')
+
 print(my_str[3]) # this will print character number 3 of string
 print(my_str[:5]) # this will print upto 5th character of the string
 print(my_str[4:]) # this will print 4th letter onwards of the string
@@ -19,3 +20,13 @@ print(str_1[3:])
 str_1='pur' + str_1[3:]
 print(str_1)
 print(str_1.split('r'))
+
+
+# Formatiing string
+
+a='afterlife'
+b='seinfeld'
+c='celiphate'
+str_2='the shows I am watching are {} {} {}.'.format(a,b,c)
+print('\n\n')
+print(str_2)
