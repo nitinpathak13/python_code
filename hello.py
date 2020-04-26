@@ -30,3 +30,4 @@ c='celiphate'
 str_2='the shows I am watching are {} {} {}.'.format(a,b,c)
 print('\n\n')
 print(str_2)
+print(f'other way of showinmg my series {a} {b} {c}') 
