@@ -1,7 +1,7 @@
 a=100
 b=233
 print(a+b)
-my_str='hello world'
+my_str='abcdefghijklmn'
 print(my_str)
 
 # Following are example of slicing
